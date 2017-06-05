@@ -1,0 +1,45 @@
+body {
+    background-color: skyblue;
+}
+
+#title {
+    border-bottom: 2px solid gray;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.wordDiv {
+    font-family: 'Russo One', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+#word {
+    font-size: 48px;
+}
+
+#hangman {
+    border: 4px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#wins {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+#winsContainer {
+    width: calc(100% - 30px);
+    position: absolute;
+    top: 15px;
+}
+
+#guessedLetters {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    margin: 64px 0 64px 0;
+}
